@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<License magicNumber="4A616E6973" platform="ALL" grace="7" licenseDate="free beer yesterday">
+	<!-- magicNumber MUST be 4A616E6973!
+	Valid options for platform are:
+	  ALL, WINDOWS, SCO, LINUX, BSD, SUN, AIX, POWERPC, HPUX
+	-->
+	<Customer name="Powdered Toast Men" serial="6666666666-6666" />
+	<Server port="6556" grace="7">
+		<Check type="0" data="CATS: ALL YOUR BASE ARE BELONG TO US."/>
+		<!-- Valid Checks (as far a I can tell)
+		0 - no check 
+		 example: <Check type="0" data="arbitrary string"/>
+		2 - MAC address check
+		 example: <Check type="2" data="?"/>
+		4 - hostname check
+		 example: <Check type="4" data="server.domain.local"/>
+		-->
+	</Server>
+	<Product id="FULLDEV" count="69696969" grace="0" >
+		<Version major="5" minor="6" revision="" />
+	</Product>
+	<Product id="FULLRUN" count="69696969" grace="0" >
+		<Version major="5" minor="6" revision="" />
+	</Product>
+        <Product id="FPSQL" count="69696969" grace="0" >
+                <Version major="5" minor="6" revision="" />
+        </Product>
+</License>

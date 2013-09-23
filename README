@@ -1,0 +1,8 @@
+filePro license files are simply scrambled XML files.  This tools will
+scramble and unscramble these files.
+
+To scramble an xml file:
+    licensetool licfp.xml licfp.dat
+
+To unscramble a dat file:
+    licensetool licfp.dat licfp.xml
